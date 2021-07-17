@@ -1,0 +1,26 @@
+main{
+
+    display: flex;
+}
+
+
+.cont-infos{
+
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.lista-prod{
+
+
+    display: flex;
+    
+}
+
+.img-prod{
+    width: 200px;
+    height: 200px;
+}
