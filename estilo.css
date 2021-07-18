@@ -261,3 +261,83 @@ footer{
     font-weight: bold;
 
 }
+
+
+@media (max-width: 600px){
+
+    .item-nav {
+
+        font-size: 15px;
+    }
+
+    .img-slide {
+
+        display: none;
+
+
+    }
+
+    .geral {
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lista-prod {
+
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .t-cont{
+
+        font-size: 20px;
+    }
+
+    main {
+
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .regras {
+
+        width: 250px;
+
+        font-size: 15px;
+
+
+    }
+
+    .outlet {
+
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .form-cont {
+
+
+        width: 250px;
+    }
+
+    .input-form {
+
+        width: 150px;
+        height: 30px;
+
+    }
+
+    .submit{
+
+
+        width: 150px;
+        height: 30px;
+
+    }
+
+}
