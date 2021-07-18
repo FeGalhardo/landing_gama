@@ -309,6 +309,9 @@ footer{
         width: 250px;
 
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
 
 
     }
@@ -317,11 +320,18 @@ footer{
 
         width: 250px;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
     }
 
     .form-cont {
 
-
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
         width: 250px;
     }
 
@@ -329,6 +339,7 @@ footer{
 
         width: 150px;
         height: 30px;
+
 
     }
 
