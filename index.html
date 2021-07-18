@@ -5,22 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estilo.css"/>
-    <title>Ofertas</title>
+     <link rel="stylesheet" type="text/css" href="estilo.css"/>
+     <script type="text/javascript" language="javascript" src="eventos.js"> </script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+     <title>Ofertas</title>
 </head>
 
-<body>
+<body onload="getform();">
 
     <header>
 
         <nav class="nav" id="barranav">
 
-            <a class="item-nav" href=""> Nosso Outlet </a>
-            <a class="item-nav" href=""> Regras </a>
-            <a class="item-nav" href=""> Alguns Produtos </a>
+            <a class="item-nav" href="#outlet"> Nosso Outlet </a>
+            <a class="item-nav" href="#regras"> Regras </a>
+            <a class="item-nav" href="#anc1"> Alguns Produtos </a>
         </nav>
 
     </header>
+
+ 
+
+    <img class="img-slide" src="img/Grande.jpg" alt="">
+
+    <div class="conteudo" >
+        <h3 class="t-cont"> Participe do Nosso Outlet</h3>
+
+    </div>
+
 
     <main class="main">
 
@@ -58,38 +73,48 @@
 
         <div id="div-form" class="div-form">
 
-            <form action="">
+            <div id="form-content">
 
-                <label for="nome" > Nome Completo </label>
-                <input type="text"   class="input-form" id-"inp1" /> 
+                <form class="form-cont" id="form" action="">
 
-                <label for="nome" > Telefone  </label>
-                <input type="text"   class="input-form" id-"inp2" /> 
+                    <label for="nome" > Nome Completo </label>
+                    <input type="text"   class="input-form" id="name" /> 
 
-                <label for="nome" > E-mail </label>
-                <input type="text"   class="input-form" id-"inp3" />            
+                    <label for="nome" > E-mail </label>
+                    <input type="text"   class="input-form" id= "email" /> 
+                    
+                    <input class="submit" type="submit"/>
 
 
 
-            </form>
+                </form>
+
+            </div>
 
 
         </div>
     </main>
 
+    <div name="produtos" class="conteudo">
+        <h3 class="t-cont"> Alguns Produtos que Estarão com Desconto</h3>
+
+    </div>
+
     <section class="lista-prod" id="lista-prod">
 
-        <div class="corpo-produto">
+        <div id="anc1" class="corpo-produto">
             <h3 class="t-prod"> Produto 1 </h3>
 
             <img class="img-prod" src="https://th.bing.com/th/id/R.6dbab565693c2a0b0cf6c0d3e4dd883a?rik=9DgzGARzGO9ZJw&pid=ImgRaw" alt="" srcset="">
 
-            <p> Se você está procurando um aparelho que permita armazenar fotos,
+            <p  class="p-prod"> Se você está procurando um aparelho que permita armazenar fotos,
              vídeos e arquivos essenciais, este celular com 16 GB de memória interna é para você  </p>
 
-            <span>R$10.000</span>
+             <span classd="span-prod1"> de R$10.000</span>
 
-            <input class="submit" type="button"name="enviar"id="enviar"value="ENVIAR" onclick=""/>
+             <span class="span-prod2"> por $8.999</span>
+
+            <button class="compra-but"> COMPRAR </button>
 
 
 
@@ -104,9 +129,10 @@
 
             <p> Se você está procurando um aparelho que permita armazenar fotos,
              vídeos e arquivos essenciais, este celular com 16 GB de memória interna é para você  </p>
+             <span classd="span-prod1"> de R$10.000</span>
 
-            <span>R$10.000</span>
-            <input class="submit" type="button"name="enviar"id="enviar"value="ENVIAR" onclick=""/>
+             <span class="span-prod2"> por $8.999</span>
+            <button class="compra-but"> COMPRAR </button>
 
 
 
@@ -121,10 +147,11 @@
 
             <p> Se você está procurando um aparelho que permita armazenar fotos,
              vídeos e arquivos essenciais, este celular com 16 GB de memória interna é para você  </p>
+             <span classd="span-prod1"> de R$10.000</span>
 
-            <span>R$10.000</span>
+             <span class="span-prod2"> por $8.999</span>
 
-            <input class="submit" type="button"name="enviar"id="enviar"value="ENVIAR" onclick=""/>
+            <button class="compra-but"> COMPRAR </button>
 
 
 
@@ -141,11 +168,14 @@
 
     </section>
 
+
+    
+
     <footer>
 
         <div class="cont-end">
 
-            <p> lOJA Segura</p>
+            <p> LOJA Segura</p>
 
         </div>
 
